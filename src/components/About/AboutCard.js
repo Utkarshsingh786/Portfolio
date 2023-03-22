@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Utkarsh Singh </span>
             from <span className="purple"> Uttar Pradesh, India.</span>
-            <br />I am a junior pursuing BTECH in Computer Science and Engineering in Abudl Kalam Technical University.
+            <br />I am a junior pursuing Btech in Computer Science and Engineering from APJ Abdul Kalam Technical University.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

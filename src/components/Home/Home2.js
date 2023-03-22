@@ -8,6 +8,9 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import pdf from "../../Assets/Resume_main.pdf";
+import Button from "react-bootstrap/Button";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -57,6 +60,18 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
+          <Row style={{ justifyContent: 'center' }}>
+            <Button
+              className="Resume-btn"
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              style={{ marginLeft: "25px", maxWidth: "250px" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download Resume
+            </Button>
+          </Row>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
