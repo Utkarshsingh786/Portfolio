@@ -7,7 +7,7 @@ import Auth from "../../Assets/Projects/Auth.png";
 import Todo from "../../Assets/Projects/Todo.png";
 import Codeguide from "../../Assets/Projects/Codeguide.png";
 import Game from "../../Assets/Projects/Game.png";
-
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -71,6 +71,17 @@ function Projects() {
               demoLink="https://utkarshsingh786.github.io/My-First-Website/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={false}
+              title="Portfolio"
+              description="It is my personal portfolio website where i have mentioned everything you need to know about me,it is build using React and Bootstrap and also a Responsive website."
+              ghLink="https://github.com/Utkarshsingh786/Portfolio"
+              demoLink="https://main--cerulean-semifreddo-a65e65.netlify.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
