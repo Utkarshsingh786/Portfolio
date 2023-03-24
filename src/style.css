@@ -658,7 +658,6 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-
 /* --------- */
 /* Contact */
 /* --------- */
@@ -667,24 +666,49 @@ button:focus {
   padding-top: 200px;
   padding-bottom:100px;
 }
-
-
-
 .form{
-  justify-content: flex-start;
   text-align: left;
   margin-left:70px;
 }
 
+.contact-row{
+  position: absolute;
+  top:100px;
+  left:12vw;
+  color:white;
+}
 
+.contact-row{
+  position: absolute;
+  top:100px;
+  left:21vw;
+  color:white;
+}
 
+.contact-coli{
+  height: 40px !important;
+  width: 50px  !important;
+}
+.contact-colx{
+  margin-left: 10px;
+  padding-top: 3px;
+  font-size: x-large;
+}  
+.contact-info{
+  text-align: center;
+}  
+.maxi{
+  left: 16vw !important;
+  margin-top: 30px;
+}
 
-@media (max-width: 430px) {
+@media (max-width: 400px)and(min-width:0px) {
   .form{
     text-align: center;
   }
   .contact-info{
     text-align: center;
+    justify-content: center;
   }
   .contact-coli{
     height: 20px !important;
@@ -698,30 +722,35 @@ button:focus {
   .contact-row{
     position: absolute;
     top:100px;
-    left:25vw;
+    left:12vw;
     color:white;
-}
-}
-
-
-@media (min-width: 430px) {
-    .contact-info{
-      text-align: left;
-    }
-    .contact-coli{
-      height: 40px !important;
-      width: 50px  !important;
-    }
-    .contact-colx{
-      margin-left: 10px;
-      padding-top: 3px;
-      font-size: x-large;
-    }    
-    .contact-row{
-      position: absolute;
-      top:100px;
-      left:12vw;
-      color:white;
   }
+  .maxi{
+    margin-left:6vw !important;
+    text-align: center;
+    padding :0;
+  }
+}
+.low{
+  justify-content: space-between;
+}
+@media (min-width: 400px)and (max-width:700px) {
+   .contact-info{
+    text-align: center;
+  }  
+  .form{
+    justify-content: space-between;
+    text-align: left;
+    margin-left:10px;
+  }
+  .contact-coli{
+    height: 30px !important;
+    width: 35px  !important;
+  }
+  .contact-colx{
+    margin-left: 10px;
+    padding-top: 3px;
+    font-size: large;
+  }   
 }
 
